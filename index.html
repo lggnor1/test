@@ -33,12 +33,19 @@
             height: 1000px;
             display: flex;
             flex-direction: column;
+            background-repeat: no-repeat; /* 배경 이미지 반복 제거 */
         }
 
         @media (max-width: 768px) {
             .header {
                 background-size: contain;
                 background-position: center;
+            }
+
+            a.nav-link {
+                color: #F17228;
+                font-size: 1.45em;
+                margin-right: 5px;
             }
         }
     </style>
