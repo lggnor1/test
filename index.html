@@ -14,38 +14,38 @@
     </script>
 
     <style>
-        a.nav-link {
+        .nav-link {
             color: #F17228;
             font-size: 1.45em;
-            margin-right: 200px;
+            margin-right: 20px;
+        }
+        
+        .GD {
+            color: greenyellow;
+            font-size: 2em;
+            margin-right: 20px;
         }
 
         .container {
             padding-bottom: 20px;
             margin-bottom: 0px;
+            display: flex;
+            justify-content: space-between; /* 로고를 오른쪽으로 정렬 */
+            align-items: center; /* 세로 방향 가운데 정렬 */
         }
 
         .header {
             background-size: cover;
-            background-image:
-                url('https://cdn.discordapp.com/attachments/1177216637271810109/1246473755254063165/IMG_1114.jpg?ex=665c84a5&is=665b3325&hm=494e44d5941e091c03e979782dfc08aa3c4889dc0b9ec795994752a8f640942f&');
+            background-image: url('https://cdn.discordapp.com/attachments/1177216637271810109/1246473755254063165/IMG_1114.jpg?ex=665c84a5&is=665b3325&hm=494e44d5941e091c03e979782dfc08aa3c4889dc0b9ec795994752a8f640942f&');
             background-position: right;
             height: 850px;
             display: flex;
             flex-direction: column;
         }
 
-        @media (max-width: 768px) {
-            .header {
-                background-size: cover;
-                background-position: center;
-            }
-
-            a.nav-link {
-                color: #F17228;
-                font-size: 1.2em;
-                margin-right: 5px;
-            }
+        .social-icons a {
+            margin-left: 15px;
+            color: white;
         }
     </style>
 </head>
@@ -60,18 +60,29 @@
                     </svg>
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="index.html" class="nav-link px-2 text-danger" target="_blank">홈</a></li>
+                    <li><a href="#" class="GD" style="color: rgb(0, 209, 0);">그린드래곤</a></li>
+                    <li><a href="index.html" class="nav-link text-danger"> </a></li>
+                    <li><a href="index.html" class="nav-link text-danger"> </a></li>
+                    <li><a href="index.html" class="nav-link text-danger">홈</a></li>
                     <li><a href="discord.html" class="nav-link px-2 ">디스코드</a></li>
                     <li><a href="kakao.html" class="nav-link px-2 ">카카오톡</a></li>
                     <li><a href="server.html" class="nav-link px-2 ">서버</a></li>
                     <li><a href="TMI.html" class="nav-link px-2 ">TMI</a></li>
                 </ul>
             </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/greendragon409/?igsh=djUwdTE0cGNoZjFp&utm_source=qr" target="_blank">
+                    <img src="https://mblogthumb-phinf.pstatic.net/MjAyMTA5MTlfMjUg/MDAxNjMyMDE3OTA4NTA0.dhHpehPf66HwINvBr6OijefwiqeXdPcbcdCU1m1nZ1Ig.3R8X4ori4uDAxmc535BOc6_M8zQHWSfotX-gO8YX4Mwg.PNG.brotherm1n/SE-5c4e2eac-5093-4df9-9626-2bf8df6eb194.png?type=w800" alt="Instagram" style="width: 50px;">
+                </a>
+                <a href="https://www.youtube.com/@Greendragon795" target="_blank">
+                    <img src="https://lh6.googleusercontent.com/proxy/Z7djY3G5KhdVi9qLrI4kpCw-cJj7tFLeY8ONjdfFvq8cjMNnqU0GClBaIYZ67fKLR5qhTisFWDQ7N19IewHDLMVENtAJEv26Z_FYM-tMoqhGmelvbL-UKZe6be_ZbwqJvEX1qic" alt="YouTube" style="width: 50px;">
+                </a>
+            </div>
         </div>
     </header>
 
     <div class="header">
-
+        
     </div>
 </body>
 
