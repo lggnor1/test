@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenDragon test</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <style>
+        a.nav-link {
+            color: #F17228;
+            font-size: 1.45em;
+            margin-right: 200px;
+        }
+
+        .container {
+            padding-bottom: 20px;
+            margin-bottom: 0px;
+        }
+
+        .header {
+            background-size: cover;
+            background-image:
+                url('https://cdn.discordapp.com/attachments/1177216637271810109/1246473755254063165/IMG_1114.jpg?ex=665c84a5&is=665b3325&hm=494e44d5941e091c03e979782dfc08aa3c4889dc0b9ec795994752a8f640942f&');
+            background-position: right;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                background-size: cover;
+                background-position: center;
+            }
+
+            a.nav-link {
+                color: #F17228;
+                font-size: 1.2em;
+                margin-right: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 text-danger" target="_blank">홈</a></li>
+                    <li><a href="discord.html" class="nav-link px-2 ">디스코드</a></li>
+                    <li><a href="kakao.html" class="nav-link px-2 ">카카오톡</a></li>
+                    <li><a href="server.html" class="nav-link px-2 ">서버</a></li>
+                    <li><a href="TMI.html" class="nav-link px-2 ">TMI</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="header">
+
+    </div>
+</body>
+
+</html>
