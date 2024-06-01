@@ -30,10 +30,15 @@
             background-image:
                 url('https://cdn.discordapp.com/attachments/1177216637271810109/1246473755254063165/IMG_1114.jpg?ex=665c84a5&is=665b3325&hm=494e44d5941e091c03e979782dfc08aa3c4889dc0b9ec795994752a8f640942f&');
             background-position: right;
+            background-repeat: no-repeat;
             height: 1000px;
             display: flex;
             flex-direction: column;
-            background-repeat: no-repeat; /* 배경 이미지 반복 제거 */
+            position: fixed; /* 페이지 상단에 고정 */
+            top: 0; /* 페이지 맨 위에 배치 */
+            left: 0;
+            right: 0;
+            z-index: -1; /* 다른 콘텐츠 위에 배치 */
         }
 
         @media (max-width: 768px) {
@@ -41,11 +46,10 @@
                 background-size: contain;
                 background-position: center;
             }
-
             a.nav-link {
                 color: #F17228;
                 font-size: 1.45em;
-                margin-right: 5px;
+                margin-right: 4px;
             }
         }
     </style>
