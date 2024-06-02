@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenDragon test</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <style>
+        .nav-link {
+            color: #F17228;
+            font-size: 1.5em;
+            margin-right: 20px;
+        }
+
+        .GD {
+            color: greenyellow;
+            font-size: 2em;
+            margin-right: 20px;
+        }
+
+        .container {
+            padding-bottom: 20px;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+            /* 로고를 오른쪽으로 정렬 */
+            align-items: center;
+            /* 세로 방향 가운데 정렬 */
+        }
+
+        .social-icons a {
+            margin-left: 15px;
+            color: white;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            /* 가로 방향 가운데 정렬 */
+            align-items: flex-start;
+            /* 세로 방향 가운데 정렬 */
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+        }
+
+        .center img {
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        .center h1 {
+            color: black;
+            cursor: default;
+            /* 기본 커서로 설정 */
+        }
+
+        .toggle-button {
+            cursor: pointer;
+            font-size: 1.5em;
+            color: #F17228;
+            margin-right: 10px;
+        }
+
+        .content {
+            padding: 20px;
+            display: none;
+        }
+
+        .content-section {
+            margin-bottom: 20px;
+        }
+
+        .content-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .content-header h1 {
+            margin: 0;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="GD">그린드래곤</a></li>
+                    <li><a href="index.html" class="nav-link text-danger">홈</a></li>
+                    <li><a href="discord.html" class="nav-link px-2 ">디스코드</a></li>
+                    <li><a href="kakao.html" class="nav-link px-2 ">카카오톡</a></li>
+                    <li><a href="server.html" class="nav-link px-2 ">서버</a></li>
+                    <li><a href="TMI.html" class="nav-link px-2 ">TMI</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/greendragon409/?igsh=djUwdTE0cGNoZjFp&utm_source=qr" target="_blank">
+                    <img src="https://mblogthumb-phinf.pstatic.net/MjAyMTA5MTlfMjUg/MDAxNjMyMDE3OTA4NTA0.dhHpehPf66HwINvBr6OijefwiqeXdPcbcdCU1m1nZ1Ig.3R8X4ori4uDAxmc535BOc6_M8zQHWSfotX-gO8YX4Mwg.PNG.brotherm1n/SE-5c4e2eac-5093-4df9-9626-2bf8df6eb194.png?type=w800"
+                        alt="Instagram" style="width: 50px;">
+                </a>
+                <a href="https://www.youtube.com/@Greendragon795" target="_blank">
+                    <img src="https://lh6.googleusercontent.com/proxy/Z7djY3G5KhdVi9qLrI4kpCw-cJj7tFLeY8ONjdfFvq8cjMNnqU0GClBaIYZ67fKLR5qhTisFWDQ7N19IewHDLMVENtAJEv26Z_FYM-tMoqhGmelvbL-UKZe6be_ZbwqJvEX1qic"
+                        alt="YouTube" style="width: 50px;">
+                </a>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <div class="title">
+        <div class="center">
+            <a href="https://discord.com/invite/XuEQvYx8Rw" target="_blank">
+                <img src="https://blog.kakaocdn.net/dn/UfLsA/btryLAAzYlS/HbRBaCnKs69pBByFgAGgfk/img.png"
+                    alt="Instagram">
+            </a>
+            <h1><a href="https://discord.com/invite/XuEQvYx8Rw">그린드래곤의 디스코드 서버</a></h1>
+            <a href="https://discord.com/invite/XuEQvYx8Rw" target="_blank">
+                <img src="https://blog.kakaocdn.net/dn/UfLsA/btryLAAzYlS/HbRBaCnKs69pBByFgAGgfk/img.png"
+                    alt="Instagram">
+            </a>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="content-header">
+            <div class="toggle-button" onclick="toggleContent(this)">&#9654;</div>
+            <h1 style="color: #ff843d;">그린드래곤 디스코드 서버 <span style="color: rgb(221, 3, 3);">규정</span></h1>
+        </div>
+        <div class="content">
+            <h4 style="color: red;">*이 규정은 그린드래곤 커뮤니티 내부 혹은 그린커뮤니티 커뮤니티와 관련된 윤리적인 의무 및 기타 필요한 사항을 규정함을 목적으로 하며,
+                규칙을 위반하여 얻은 경고 횟수가 5회를 초과( 경고 > 5 )할 경우 커뮤니티에서 1주일 타임아웃 혹은 차단이 진행됩니다.*</h4>
+            <h4 style="color: red;">*모든 제재는 관리자의 판단 하에 진행되며 규정의 항목은 규정의 원게시자 및 관리자의 논의 하에 변경될 수 있습니다.*</h4>
+            <h5>
+                <ul>
+                    <li>타인에게 비난/비방하는 발언을 하여 대상의 기분을 불쾌하게 할시: 경고 +1 ~</li>
+                    <li>성적인 발언을 하여 커뮤니티의 분위기를 문란하게 할시: 경고 +3 ~</li>
+                    <li>정치적이거나 타인의 가족/친척을 비하/비난/비방하는 발언을 할시: 경고 +4 ~</li>
+                    <li>도배, 홍보 등의 행위로 스팸 메시지를 보낼시(홍보방에서 홍보한 것을 보라고 하는 것, 홍보하는 닉네임): 경고 +2 ~</li>
+                    <li>분쟁을 일으키거나 참여할시: 경고 +2 ~</li>
+                    <li>타인의 개인 정보를 강제적 혹은 동의 없이 유포할시: 경고 +4 ~</li>
+                    <li>고의적인 의도로 다분한 악성 매체를 공유할시: 경고 +5 ~</li>
+                    <li>정치적이거나 문제를 일으킬 수 있는 닉네임을 가진 이에게 관리자가 변경 요청을 하였음에도 불구하고 이행하지 않을시: 경고 +4 ~</li>
+                    <li>#위브-경고 에서 3번초과(4번 이상)경고를 받을시(위브가 잘못 경고 했다면 관리자가 그 메시지에 답장으로 "무효"라고 치면 무효된다.): 경고 +1</li>
+                </ul>
+            </h5>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="content-header">
+            <div class="toggle-button" onclick="toggleContent(this)">&#9654;</div>
+            <h1 style="color: #F17228; display: inline;">그린드래곤 디스코드 서버 <span style="color: black;">블랙리스트</span></h1>
+        </div>
+        <div class="content">
+            <h5 style="color: red;">
+                <ul>
+                    <li>wrmelon_11</li>
+                </ul>
+            </h5>
+        </div>
+    </div>
+    <hr>
+    <p><a href="https://discord.gg/TRkBqhFepw">©lgg_nor1</a></p>
+    <script>
+        function toggleContent(button) {
+            var content = button.parentElement.nextElementSibling;
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                button.innerHTML = "&#9660;"; // 아래쪽 화살표
+            } else {
+                content.style.display = "none";
+                button.innerHTML = "&#9654;"; // 오른쪽 화살표
+            }
+        }
+    </script>
+</body>
+
+</html>
